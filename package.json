@@ -1,0 +1,27 @@
+{
+  "name": "nkv.db",
+  "version": "0.1.1",
+  "description": "An easy to use and fast key-value database for sqlite3 written in C++ as a NodeJS module.",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "node-addon-api": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild -j 8 --directory=src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexander9673/nkv.db.git"
+  },
+  "author": "Alexander9673",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alexander9673/nkv.db/issues"
+  },
+  "homepage": "https://github.com/Alexander9673/nkv.db#readme"
+}
